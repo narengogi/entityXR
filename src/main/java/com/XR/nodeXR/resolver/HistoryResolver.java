@@ -1,15 +1,18 @@
 package com.XR.nodeXR.resolver;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import com.XR.nodeXR.service.HistoryProcessor;
+
 import org.springframework.http.codec.multipart.FilePart;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 
 public class HistoryResolver {
-    public ResponseEntity historyUploader(FilePart file) {
-        file.transferTo(new File("/home/vennela/Downloads/tmp/" + file.filename()));
-        return new ResponseEntity("File Uploaded SuccessFully", HttpStatus.OK);
+
+    public void historyUploader(FilePart file) throws IOException {
+        file.transferTo(new File("/home/vennela/Downloads/tmp/" + file.filename())).block(Duration.ofSeconds(5));
+        HistoryProcessor historyProcessor = new HistoryProcessor(file.filename());
+        historyProcessor.processFile();
     }
 }

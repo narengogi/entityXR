@@ -1,5 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="NodeXRDev" type="Application" factoryName="Application">
+    <envs>
+      <env name="fileStore" value="$USER_HOME$/Downloads/tmp/" />
+    </envs>
     <option name="MAIN_CLASS_NAME" value="com.XR.nodeXR.NodeXrApplication" />
     <module name="nodeXR" />
     <method v="2">

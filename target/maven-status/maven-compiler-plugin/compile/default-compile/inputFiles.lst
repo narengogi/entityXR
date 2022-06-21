@@ -1,0 +1,8 @@
+/home/vennela/Code/nodeXR/src/main/java/com/XR/nodeXR/model/User.java
+/home/vennela/Code/nodeXR/src/main/java/com/XR/nodeXR/AppConfig.java
+/home/vennela/Code/nodeXR/src/main/java/com/XR/nodeXR/controller/RestApiController.java
+/home/vennela/Code/nodeXR/src/main/java/com/XR/nodeXR/controller/HistoryController.java
+/home/vennela/Code/nodeXR/src/main/java/com/XR/nodeXR/NodeXrApplication.java
+/home/vennela/Code/nodeXR/src/main/java/com/XR/nodeXR/controller/UserController.java
+/home/vennela/Code/nodeXR/src/main/java/com/XR/nodeXR/resolver/HistoryResolver.java
+/home/vennela/Code/nodeXR/src/main/java/com/XR/nodeXR/repository/UserRepository.java

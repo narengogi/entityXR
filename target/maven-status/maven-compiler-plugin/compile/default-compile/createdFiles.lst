@@ -1,0 +1,8 @@
+com/XR/nodeXR/model/User.class
+com/XR/nodeXR/controller/HistoryController.class
+com/XR/nodeXR/resolver/HistoryResolver.class
+com/XR/nodeXR/AppConfig.class
+com/XR/nodeXR/repository/UserRepository.class
+com/XR/nodeXR/controller/RestApiController.class
+com/XR/nodeXR/controller/UserController.class
+com/XR/nodeXR/NodeXrApplication.class
