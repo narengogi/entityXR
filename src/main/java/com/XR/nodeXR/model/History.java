@@ -45,7 +45,7 @@ public class History {
     @JsonProperty
     private String visitCount;
 
-    @Relationship(type = "parent")
-    @JsonIgnore
-    private String test;
+//    @Relationship(type = "parent")
+//    @JsonIgnore
+//    private String test;
 }
